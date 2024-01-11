@@ -1,0 +1,69 @@
+.Main{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-top:0.5vw ;
+  
+  }
+  #M{
+    width: 70vw;
+  
+    margin-right:25vw;
+    background-color:rgb(215,220, 220);
+  }
+  img{
+    height: 13vh;
+    width: 7vw;
+    padding: 10px 15px 10px ;
+  }
+  .game{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 150px;
+    
+  }
+  .name{
+    font-weight: bold;
+    
+    
+  }
+  .button{
+    height: 5vh;
+    width: 8vw;
+    margin-top: 45px;
+    background-color: grey;
+    color: white;
+    position: relative;
+    right:550px;
+    margin-top: 60px;
+    
+  }
+  .quantity{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+   font-weight: bold;
+   position: relative;
+   right:350px;
+   width: 40vw;
+  }
+  .input{
+   display: flex;
+   flex-direction: row;
+   align-self: center;
+   border: 1px solid purple;
+   position: absolute;
+   left: 450px;
+  }
+  .bt{
+    background-color: purple;
+    color: white;
+  }
+  .in{
+    border: 2px solid purple;
+  }
+  
+  .title{
+    text-align: center;
+  }
